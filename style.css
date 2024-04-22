@@ -11,10 +11,13 @@
   font-size: 2rem;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-weight: bold;
+  padding-right: 2rem;
 }
 .conteneur-liens {
   padding: 10px;
-  width: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: end;
 }
 header {
   display: flex;
@@ -23,4 +26,9 @@ header {
 
 h1 {
   color: #7de2d1;
+  font-size: 4rem;
+  margin: 10rem;
+  padding-left: 50rem;
+  display: grid;
+  justify-items: center;
 }
